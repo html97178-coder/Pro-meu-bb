@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.5">
+    <title>Para ela</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script>
+  const sparkleContainer = document.querySelector(".sparkle");
+  function criarBrilho() {
+    const spark = document.createElement("div");
+    spark.classList.add("spark");
+    spark.style.left = Math.random() * 100 + "vw";
+    spark.style.animationDuration = Math.random() * 4 + 5 + "s";
+    sparkleContainer.appendChild(spark);
+    setTimeout(() => spark.remove(), 8000);
+  }
+  setInterval(criarBrilho, 300);
+</script>
+   <body>
+     <div class="sparkle"></div>
+   <h1 style="text-align: center;">Eu e Você</h1>
+   <div class="card" id="presente">
+  <div class="cover" onclick="abrirPresente()">
+  </div>
+  <div class="imagens">
+    <img src="img/IMG_5202.jpg" alt="Nós">
+    <img src="img/IMG_5217.jpg" alt="Nós">
+  </div>
+   <p>Oiiee Bi, eu sei que fazer um site pode ser uma forma muito estranha ou esquisita de demonstrar desculpas mas, eu queria me desculpar mesmo assim.</p><br>
+   <p>olha bi eu confesso que errei com vc e sei que mesmo confessando não vai confortar o seu coração, nem as minhas desculpas obviamente kkkkk.</p><br>
+   <p>Mas bi mesmo tendo errado com vc FEIO, eu quero dizer que sempre confiei em vc com a minha vida, é como vc disse ontem com o Kauã na rua "o medo vai te fazer perder muita coisa", e eu tive medo, oq acabou demonstrando falta de confiança minha, e peço perdão o maximo possivel pra você mesmo que dificilmente vc vai me perdoar 3 e aceitar minhas desculpas.</p><br>
+   <p>Então minha princesa, sei que errei demais e sei que vc pode não acreditar nas minhas palavras mas, eu vou fazer de tudo pra conquistar a sua confiança, mesmo que esses presentes nao vai ajudar muito a melhorar as coisas, eu vou fazer de TUDO, literalmente TUDO pra conquistar sua confiança </p><br>
+   <p>Eu agradeço muito a você Bi por ser essa namorada maravilhosa e perfeita, obrigado por ser a mulher mais incrivel desse mundo pra mim, obrigado por tudo meu amor, minha vida.</p><br>
+   <footer>EU TE AMO MAIS DO QUE QUALQUER COISA AO INFINITO E ALEM ATÉ AS GALAXIASSS.</footer>
+  <div class="hearts">
+    <span>❤️</span>
+    <span>💗</span>
+    <span>💖</span>
+    <span>💕</span>
+    <span>💘</span>
+    <span>💞</span>
+</div>
+
+   </body>
+</html>
